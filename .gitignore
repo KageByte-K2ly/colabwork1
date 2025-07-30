@@ -1,5 +1,10 @@
-echo "tmp/" >> .gitignore
-echo "*_old" >> .gitignore
-echo "*_backup" >> .gitignore
-echo "Thumbs.db" >> .gitignore
-echo ".DS_Store" >> .gitignore
+# Игнорировать папку tmp
+tmp/
+
+# Игнорировать файлы с _old и _backup
+*_old
+*_backup
+
+# Игнорировать системные файлы
+Thumbs.db
+.DS_Store
