@@ -1,0 +1,5 @@
+echo "tmp/" >> .gitignore
+echo "*_old" >> .gitignore
+echo "*_backup" >> .gitignore
+echo "Thumbs.db" >> .gitignore
+echo ".DS_Store" >> .gitignore
